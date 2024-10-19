@@ -69,10 +69,11 @@
     font-family: 'Brush Script MT', cursive;
     font-size: 28px;
     text-align: center;
-    line-height:25px;
-    top:19px;
-    left:85px;
-    color: #003049;
+    line-height: 25px;
+    top: 50%;       /* Đưa văn bản xuống 50% chiều cao của khung */
+    left: 50%;      /* Đưa văn bản sang 50% chiều ngang của khung */
+    transform: translate(-50%, calc(-50% - 25px)); /* Dịch chuyển văn bản để căn giữa hoàn toàn */
+    color: #003049; - 100px
   }
   
   .heart {
