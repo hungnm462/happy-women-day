@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Happy Women's Day 20/10</title>
+	<style>
+		* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(253, 209, 209);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .wrapper {
+            width: 327px;
+            border-radius: 7px;
+            background-color: #fff;
+            -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+            -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 5px;
+            text-align: center;
+        }
+
+        .product-text h1 {
+            font-size: 34px;
+            color: #ff0000;
+        }
+
+        .product-text h2 {
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ff0000;
+            letter-spacing: 0.2em;
+            margin: 10px 0;
+        }
+
+        .product-text p {
+            color: black;
+            line-height: 1.7em;
+            font-size: 15px;
+            font-weight: lighter;
+            margin-bottom: 20px;
+        }
+
+        .product-btn button {
+            height: 41px;
+            width: 176px;
+            border: transparent;
+            border-radius: 60px;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #fff;
+            background-color: #3bc19c;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .product-btn button:hover {
+            background-color: #79b091;
+        }
+	</style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="product-info">
+            <div class="product-text">
+                <h1>Chào Mừng Ngày Phụ Nữ Việt Nam</h1>
+                <h2>20/10</h2>
+                <p>Nhân ngày phụ nữ Việt Nam ta
+                    <br>Chúc U Lan luôn khỏe mạnh, trẻ mãi không già
+                    <br>Chúc chị Trang công danh đều thuận lợi
+					<br>Chúc Nhi thối hay ăn chóng lớn<br>
+					<br>Chúc phụ nữ gia đình ta vui vẻ hạnh phúc<br>
+                </p>
+            </div>
+
+            <div class="product-btn">
+                <!-- <p><span>Vô Giá</span></p> -->
+                <button class="product-give" type="button">
+                    Tặng Quà
+                </button>
+            </div>
+        </div>
+    </div>
+	<script>
+		$('.product-give').click(function () {
+                window.location.href = 'flower.html';
+            });
+        </script>
+</body>
+</html>
